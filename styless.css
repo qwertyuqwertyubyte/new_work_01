@@ -1,0 +1,64 @@
+
+body {
+  margin: 0;
+  background-color: #ff;
+  color: #1f1f1f;
+}
+
+/* Action Section Layout */
+.action-section {
+  background-color: #f8faff;
+  padding: 80px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.action-left {
+  flex: 1;
+  min-width: 280px;
+}
+
+.action-left h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.action-left p {
+  color: #6b7280;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  background-color: #5c4efc;
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #3e33cc;
+  transform: scale(1.05);
+}
+
+/* Image styles */
+.action-right {
+  flex: 1;
+  min-width: 280px;
+}
+
+.action-right img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}

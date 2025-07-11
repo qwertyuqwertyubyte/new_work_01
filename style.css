@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.header {
+  padding: 50px 20px 30px;
+  background-color: #fff;
+}
+
+.logo {
+  color: #007BFF;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.navbar a {
+  margin: 0 10px;
+  color: #777;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.stats {
+  background-color: #e6f0ff;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin: 30px auto;
+  max-width: 700px;
+}
+
+.stats h2 {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  margin: 10px 20px;
+}
+
+.stat-box h3 {
+  color: #007BFF;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.stat-box p {
+  color: #666;
+  font-size: 14px;
+}
